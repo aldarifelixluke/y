@@ -1,6 +1,6 @@
 const domains = ["its.me.eu.org", "teamcyber.vastserve.com"];
 
-if (!domains.includes(window.location.hostname)) {
+if (window.location.hostname !== "teamcyber.vastserve.com") {
   return;
 }
 
